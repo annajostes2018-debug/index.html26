@@ -1,82 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <section>
-            <nav>
-                <img src="./assets/FES.svg" alt="FES logo">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#Discord">Discord</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </nav>
-            <header>
-                <div>
-                    <h1>Best place to learn front-end</h1>
-                    <p>Go from being an absolute beginner to a pro with a process.</p>
-                    <button>Start Now</button>
-                </div>
-                <div>
-                    <figure>
-                        <img src="./assets/laptop.png" alt="Home page image">
-                    </figure>
-                </div>
-            </header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Simplified</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <nav>
+            <img src="./assets/FES.svg" class="logo" alt="FES logo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Discord">Discord</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+                <div CLASS="home__description"
+                <h1>Best place to learn front-end</h1>
+                <p class="subheader">Go from being an absolute beginner to a pro with a simplified process.</p>
+                <button class="home__description--button">Start Now</button>
+            </div>
+            <div>
+                <figure>
+                    <img src="./assets/laptop.svg" alt="Home page image">
+                </figure>
+            </div>
+        </header>
+    </section>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <div class="section_description">
+                <p class="section__description--para">We are a community of learners who are passionate about front-end development.</p>
+                <p>Keep learning and never stop</p>
+                <p>CHALLENGE YOURSELF TO LEARN NEW THINGS EVERYDAY</p>
+            </div>
+            <figure class="about__img--wrapper">
+                <img src="./assets/about.svg" alt="About image">
+            </figure>
         </section>
 
-        <main>
-            <section id="about">
-                <h2>About</h2>
-                <div>
-                    <p>Keep learn and never stop</p>
-                    <p>CHALLENGE YOURSELF TO LEARN NEW THINGS EVERYDAY</p>
-                </div>
+        <section id="Discord">
+            <h2>Discord</h2>
+            <div class="row">
                 <figure>
-                    <img src="./assets/about.jpg" alt="About image">
-                </figure>
-            </section>
-
-            <section id="Discord">
-                <h2>Discord</h2>
-                <figure>
-                    <img src="./assets/discord.jpg" alt="Discord image">
-                </figure>
-            </section>
-            <section id="Contact">
-                <h2>Contact</h2>
-                <figure>
-                    <img src="./assets/discord.png" alt="Discord">
+                    <img src="./assets/discord.svg" alt="Discord image">
                 </figure>
                 <div>
-                    <p>Contact us for more information</p>
-                    <p>Email:</p>
+                    <p class="section__description--para">Join our Discord community to connect with other learners and get help with your front-end development journey.</p>
                 </div>
-            </section>
-
-            <section id="contact">
-                <h2>Contact</h2>
-                <form action="">
-                    <span>Email</span>
-                    <input type="text" placeholder="jane@example.com">
-                </form>
-            </section>
-        </main>
-
-        <footer>
-            <img src="./assets/FES.svg" alt="FES logo">
-            <div>
-                <a href="#about">About</a>
-                <a href="#Discord">Discord</a>
-                <a href="#Contact">Contact</a>
-                <a href="#courses">Courses</a>
             </div>
-            <p>Copyright Frontend Simplified 2026</p>
-        </footer>
-    </body>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form action="">
+                <span>Email</span>
+                <input type="email" placeholder="jane@example.com">
+                <span>Message</span>    
+                <textarea placeholder="Cool website, let's go!"></textarea>
+                <button>Contact us!</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img class="footer-logo" src="./assets/FES.svg" alt="FES logo">
+        <div class="footer__links">
+            <a href="#about">About</a>
+            <a href="#Discord">Discord</a>
+            <a href="#Contact">Contact</a>
+            <a href="#courses">Courses</a>
+        </div>
+        <p>Copyright Frontend Simplified 2026</p>
+    </footer>
+</body>
 </html>
