@@ -120,7 +120,7 @@ margin-bottom: 28px;
 }
 
 .about-me__picture {
-width: 100%; }
+width: 100%; 
 
 
 /* Improving my own picture */
@@ -192,7 +192,7 @@ padding-top: 4px;
   opacity: 0;
 }
  
-.language: hover .language__name {
+.language:hover .language__name {
   transform: scale(1);
   opacity: 1;
 }
