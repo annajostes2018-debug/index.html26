@@ -320,9 +320,9 @@ footer {
   color: #fff;
 }
 
-.footer_logo--popper {
+.footer__logo--popper {
   position: absolute;
-  right 0;
+  right: 0;
   top: 30px;
   font-weight: 700;
   opacity: 0;
