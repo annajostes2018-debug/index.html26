@@ -184,11 +184,13 @@ animation: animate-profile-picture 800ms 200ms backwards;
   }
 
 .about-me__picture {
-width: 100%; 
+  width: 100%;
+  transform: scale(1.1);
+}
 
 
 /* Improving my own picture */
-transform: scale(1.2);
+transform: scale(1.0);
 padding-top: 8px;
 }
 
