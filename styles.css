@@ -239,6 +239,8 @@ padding-top: 8px;
   flex: 1;
   display: flex;
   align-items: center;
+margin-top: 5%;
+margin-bottom: 5%;
   }
 
 .about-me__img {
@@ -280,13 +282,13 @@ animation: fade-in  1200ms 800ms backwards;
 
 /* TECH - STACK */
 
-.tech-stack {
-    display: flex;              /* Enables flexbox */
-    flex-direction: row;       /* Stacks items horizontally */
-    justify-content: space-around; /* Optional: space out items evenly */
+.language {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 32px;
 }
-
-
 
 .language__list {
   display: flex;
@@ -298,8 +300,9 @@ animation: fade-in  1200ms 800ms backwards;
 }
 
 .language__img {
-  width: 25%;         /* Allocates exactly 1/4 of container width */
-  padding: 16px;       /* Gives clean breathing room between elements */
+  width: 100%;
+  max-width: 100px;
+  padding: 16px;
   object-fit: contain;
   transition: transform 300ms ease, filter 300ms ease, opacity 300ms ease;
 }
