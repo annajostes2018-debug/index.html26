@@ -283,7 +283,8 @@ animation: fade-in  1200ms 800ms backwards;
 /* TECH - STACK */
 
 .language {
-  width: 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
   display: flex;
   justify-content: center;
   position: relative;
@@ -292,11 +293,9 @@ animation: fade-in  1200ms 800ms backwards;
 
 .language__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  flex-wrap: wrap;
-  justify-content: flex-start; /* Aligns row items properly left-to-right */
-  padding: 25px 0;
 }
 
 .language__img {
