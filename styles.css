@@ -282,14 +282,7 @@ animation: fade-in  1200ms 800ms backwards;
 
 /* TECH - STACK */
 
-.language {
-  flex: 0 0 25%;
-  max-width: 25%;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 32px;
-}
+
 
 .language__list {
   display: flex;
@@ -298,13 +291,25 @@ animation: fade-in  1200ms 800ms backwards;
   width: 100%;
 }
 
+.language {
+  flex: 0 0 25%;
+  max-width: 25%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.language__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .language__img {
   width: 100%;
-  max-width: 100px;
-  padding: 16px;
+  max-width: 80px;
   object-fit: contain;
-  transition: transform 300ms ease, filter 300ms ease, opacity 300ms ease;
-}
+}f
 
 .language__img:hover {
   filter: brightness(80%);
@@ -490,8 +495,11 @@ h1 {
   font-size: 18px;
 }
 
-.language {
-  width: calc (100% / 2);
+@media (max-width: 768px) {
+  .language {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 .project__description--para {
