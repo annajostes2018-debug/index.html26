@@ -195,6 +195,7 @@ text-align: center;
     transform: scale (1);
   }
 
+
 /* Improving my own picture */
 transform: scale(1);
 padding-top: 8px;
@@ -286,7 +287,7 @@ animation: fade-in  1200ms 800ms backwards;
     display: flex;              /* Enables flexbox layout */
     flex-direction: row;       /* Ensures items are in a row */
     justify-content: space-around; /* Optional: space items evenly */
-}
+    }
 
 .tech-item {
     margin: 0 10px;           /* Optional: adds space between items */
@@ -307,7 +308,8 @@ animation: fade-in  1200ms 800ms backwards;
   max-width: 25%;
   display: flex;
   justify-content: center;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
+  margin-top: 32px;
 }
 
 .language__img--wrapper {
